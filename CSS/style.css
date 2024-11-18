@@ -109,10 +109,21 @@ body {
     padding: 20px;
 }
 
+@keyframes ShowUp {
+    0% { opacity: 0;};
+    50% { opacity: 50%;};
+    100% { opacity: 100%;};
+}
+
 .banner-name {
     color: #FF8000;
     font-size: 4rem;
+    animation: ShowUp 2s ease-in-out;
 }
+
+.start-animation {
+    animation: ShowUp 1s ease-out forwards;
+  }
 
 .banner-text {
     color: #ffffff;
