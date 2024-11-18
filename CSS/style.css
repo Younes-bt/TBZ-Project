@@ -109,17 +109,12 @@ body {
     padding: 20px;
 }
 
-@keyframes ShowUp {
-    0% { opacity: 0;};
-    50% { opacity: 50%;};
-    100% { opacity: 100%;};
-}
 
 .banner-name {
     color: #FF8000;
     font-size: 4rem;
-    animation: ShowUp 2s ease-in-out;
 }
+
 
 .start-animation {
     animation: ShowUp 1s ease-out forwards;
@@ -131,7 +126,8 @@ body {
 }
 
 .content {
-    background-color: rgba(0, 0, 0, 60%);
+    background-color: rgba(0, 0, 0, 20%);
+    border: 1px solid #ffffff;
 
 }
 
@@ -220,4 +216,12 @@ body {
 .sect-2 {
     background-color: #ffffff;
     min-height: 70dvh;
+}
+
+.sec2-1 {
+    background-image: url('../STATIC/Images/test.png');
+    min-height: 50dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
