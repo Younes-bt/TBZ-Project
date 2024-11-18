@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100dvh;
+    font-family: 'Sour Gummy', sans-serif;
+
+}
+
+.nav-link {
+    font-weight: 500 !important;
+    color: black;
+}
+
+.nav-link:hover {
+    font-weight: 600 !important;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.active { 
+    color: #219B9D !important;
+    font-weight: 700 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #78B3CE !important;
+}
+
+
+/* home page */ 
+
+/*
+.home-banner {
+    background: #FAB12F !important;
+    background-image: url(/STATIC/Images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80dvh;
+}
+
+
+.banner-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-txt {
+    font-size: 3rem;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sour Gummy', sans-serif !important;
+}
+
+.banner-txt-name {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #FA4032 !important;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sour Gummy' !important;
+}
+*/
+
+.home-banner{
+    background-color: #FF8000;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}   
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover; /* Ensures the video fills the area */
+}
+
+.video-background .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-name {
+    color: #FF8000;
+    font-size: 5rem;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 60%);
+
+}
+
+.navbar {
+    font-size: 1.3rem;
+}
+
+
+/* Section 1 */
+
+.sect-1 {
+    background: rgb(0,148,198);
+    background: linear-gradient(51deg, rgba(0,148,198,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 2rem 0px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #FF8000 !important;
+    border-radius: 2rem;
+}
+
+.slide-btn-banner {
+    background-color: #FF8000 !important;
+}
+
+.sect1-img-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.carousel {
+    border: 10px solid #ffffff;
+}
+
+.sect-1-txt-side {
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-1-txt-name {
+    color: #f07903;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sect-1-txt-eta {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.sect-1-txt-txt {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.sect-1-txt-side-btn {
+    width: 70%;
+    background-color: #FF8000;
+    color: #ffffff;
+    font-family: 'Merriweather Sans', sans-serif;
+    border: 0px;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.sect-1-txt-side-btn:hover {
+    width: 80%;
+    background-color: #f17a02;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+}
+
+/* Section 2 */
+
+.sect-2 {
+    background-color: #ffffff;
+    min-height: 70dvh;
+}
