@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="../CSS/animations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container">
             <a class="navbar-brand m-auto" href="#">
                 <img src="../STATIC/Images/logo_Low.png" alt="Bootstrap" width="60" height="80">
@@ -28,8 +30,9 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link" aria-current="page" href="#">Accueil</a>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -44,6 +47,18 @@
                             <li><a class="dropdown-item" href="#">Notre équipe</a></li>
                         </ul>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#section-Pedagogie">Pédagogie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#section-Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#section-mediascol">MédiaScol</a>
+                    </li>
+
+                    <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -82,6 +97,7 @@
                             <li><a class="dropdown-item" href="#">Service de garde</a></li>
                         </ul>
                     </li>
+                    -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contactez-nous</a>
                     </li>
@@ -108,56 +124,223 @@
         </div>
     </div>
 
-    <!--section1-->
+    <!--section1-bref-->
     <div class="container-fluid sect-1">
         <div class="container">
             <div class="row">
-                
                 <div class="col-12 col-lg sect1-img-side">
-                    <div id="carouselExampleAutoplaying" class="carousel slide animate-moveRight" data-bs-ride="carousel">
+                    <div id="carouselExampleAutoplaying" class="carousel slide animate-moveRight"
+                        data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="../STATIC/Images/image1.jpg" class="d-block w-100" alt="kids1">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../STATIC/Images/image2.jpg" class="d-block w-100" alt="kids2">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../STATIC/Images/image3.jpg" class="d-block w-100" alt="kids3">
-                          </div>
+                            <div class="carousel-item active">
+                                <img src="../STATIC/Images/image1.png" class="d-block w-100" alt="kids1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../STATIC/Images/image2.png" class="d-block w-100" alt="kids2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../STATIC/Images/image3.png" class="d-block w-100" alt="kids3">
+                            </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
                 </div>
 
-                <div class="col-12 col-lg sect-1-txt-side">
-                    <p class="sect-1-txt-eta animated-div">Etablissement Scolaire</p>
-                    <h1 class="sect-1-txt-name animate-fadein">TARIK IBN ZIYAD</h1>
-                    <p class="sect-1-txt-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facilis, autem repellat voluptatibus molestiae perspiciatis repellendus explicabo ab adipisci, placeat, repudiandae ad fuga esse eum accusantium eveniet aut tenetur eius.</p>
+                <div class="col-12 col-lg sect-1-txt-side animate-fadein">
+                    <p class="sect-1-txt-eta ">Etablissement Scolaire</p>
+                    <h1 class="sect-1-txt-name ">TARIK IBN ZIYAD</h1>
+                    <p class="sect-1-txt-txt">Située à Ksar El Kebir, Maroc, l'école Tarik Ibn Ziyad se distingue par
+                        son engagement en faveur d'une éducation de qualité, enracinée dans les valeurs marocaines et
+                        ouverte aux horizons culturels. <br>
+
+                        Nous croyons fermement en un cadre scolaire où chaque élève peut s’épanouir, apprendre et
+                        grandir tout en explorant ses capacités et ses passions uniques. <br>
+
+                        Notre mission est de cultiver un environnement stimulant, propice au développement personnel et
+                        académique, permettant à chaque élève de réaliser son plein potentiel.</p>
                     <button type="button" class="sect-1-txt-side-btn">Découvrez-nous</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--section2-->
-    <div class="container-fluid">
+    <!--section2-pedagogie-->
+    <div class="container mt-2" id="section-Pedagogie">
+        <div class="row sect-2-a">
+            <h1 class="sect-2-a-title mb-3"><span class="fw-light">Notre vision</span> <span
+                    class="fw-bolg">pédagogique</span></h1>
+            <p>Le programme pédagogique de l'école Tarik Ibn Ziyad combine les forces du système éducatif marocain avec
+                des approches modernes et internationales. Il vise à cultiver des compétences linguistiques et
+                cognitives exceptionnelles, tout en exposant les élèves à une diversité d’idées et de méthodes
+                d’apprentissage. <br>
+
+                Cette démarche prépare nos élèves à exceller et à s’adapter aux exigences d’un monde en perpétuelle
+                évolution.</p>
+        </div>
         <div class="row sect-2">
-            <div class="col sec2-1">
-                
-                  
+            <div class="col-12 col-md-4 sec2-1 animate-ShowUP">
+                <h2>Maternelle</h2>
+                <img src="../STATIC/Images/image-5.png" alt="" class="w-100 mb-3 sec2-1-img">
+                <p class="sect-2-1-txt w-100">Une pédagogie active et participative pour éveiller la curiosité et la
+                    créativité des enfants, développer leur langage et leur autonomie et encourager leur socialisation.
+                </p>
             </div>
-            <div class="col">2</div>
+            <div class="col-12 col-md-4 sec2-1 animate-ShowUP">
+                <h2>Primaire</h2>
+                <img src="../STATIC/Images/image-4.png" alt="" class="w-100 mb-3 sec2-1-img">
+                <p class="sect-2-1-txt w-100">Une pédagogie différenciée pour dévoiler le potentiel de chaque enfant en
+                    respectant ses besoins pour le guider vers la réussite scolaire.</p>
+            </div>
+            <div class="col-12 col-md-4 sec2-1 animate-ShowUP sec2-1-img">
+                <h2>Collège</h2>
+                <img src="../STATIC/Images/image-6.png" alt="" class="w-100 mb-3 sec2-1-img">
+                <p class="sect-2-1-txt w-100">Une pédagogie exigeante pour développer l’autonomie, l’esprit critique et
+                    les compétences collaboratives, tout en guidant chaque élève vers la réussite et la maturité.</p>
+            </div>
         </div>
     </div>
 
+
+    <!--section3-service-->
+    <div class="container-fluid sect-4 pb-4" id="section-Services">
+        <div class="row sect-4-title">
+            <h1 class="sect-4-title-txt">Nos services</h1>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-lg sect1-img-side animate-moveRight">
+                    <img src="../STATIC/Images/transport.png" alt="school-bus-vector" class="Service-img w-100">
+                </div>
+
+                <div class="col-12 col-lg sect-1-txt-side animate-fadein">
+                    <h1 class="sect-1-txt-name ">Transport scolaire</h1>
+                    <p class="sect-1-txt-txt">SNotre service de transport scolaire assure une solution pratique et
+                        sécurisée pour les déplacements des élèves entre leur domicile et l'école Tarik Ibn Ziyad.
+                        Conscients de l'importance de la sérénité des parents, nous nous engageons à offrir un trajet
+                        sûr, confortable et fiable. <br>
+
+                        Pour toute question ou pour inscrire votre enfant à ce service, n'hésitez pas à contacter nos
+                        responsables.</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+
+                <div class="col-12 col-lg sect-1-txt-side animate-moveRight">
+                    <h1 class="sect-1-txt-name ">Service de garde</h1>
+                    <p class="sect-1-txt-txt">Le service de garde de l'école Tarik Ibn Ziyad est pensé pour le bien-être
+                        des enfants et la tranquillité d'esprit des parents actifs. Disponible avant le début des cours
+                        et après la fin de la journée scolaire, il offre un encadrement attentif assuré par nos
+                        éducateurs et enseignants dévoués.
+
+                        Les enfants participent à des activités éducatives et créatives adaptées à leur âge. Avant
+                        l’école, nous les aidons à se préparer pour la journée, et après l’école, nous proposons un
+                        espace propice à un apprentissage ludique. Une solution idéale pour les parents ayant des
+                        horaires flexibles.</p>
+                </div>
+
+                <div class="col-12 col-lg sect1-img-side animate-moveLeft">
+                    <img src="../STATIC/Images/image3.jpg" alt="school-bus-vector" class="Service-img w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section4-mediascol-->
+    <div class="container-fleuid mt-2 sect-3 mt-2" id="section-mediascol">
+        <div class="container">
+            <div class="row sect-3-a">
+                <h1 class="sect-3-a-title mb-3 mt-4"><span class="fw-bolder">MediaScol</span> <span
+                        class="fw-light">2024-2025</span></h1>
+                <p class="fs-3 text-white sect-3-a-text">Bienvenue dans le journal 100% Numérique de l'école Tarik Ibn
+                    Ziyad de l'enseignement et de l'éducation privée à Ksar El Kebir.</p>
+                <p class="fs-3 text-white sect-3-a-text">Pour la vie, pour l'environnement, pour l'amour, pour tout le
+                    monde, pour toi et pour moi !</p>
+                <p class="fs-1 text-danger sect-3-a-text fw-bolder"><span class="fw-bolder">Restez connectés à notre
+                        journal 100% Numérique.</span></p>
+            </div>
+            <div class="row sect-3-b">
+                <div class="col-12 col-md-3 sect-3-card animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-what.png"
+                        alt="victore picture of a women and man asking themselves" class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Eléves! Pourquoi le MédiaScol?</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-eco animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-eco.png" alt="victore picture of a ecology"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Coin Ecologiste</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-creative animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-creative2.png" alt="victore picture of creativity"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Graine Créative</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-Numérique animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-num.png" alt="victore picture of éducatif"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Numérique éducatif</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-concours animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-concours.png" alt="victore picture of Nos concours"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Nos concours</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-extra animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-extra.png" alt="victore picture of Nos concours"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Nos activités extra-scolaires</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-souvenirs animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-souvenirs.png" alt="victore picture of Nos concours"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Voyage dans les souvenirs de notre Ecole</span>
+                </div>
+                <div class="col-12 col-md-3 sect-3-card sect-3-card-contact animate-ShowUP">
+                    <img src="../STATIC/Images/mediascol-souvenirs.png" alt="victore picture of Nos concours"
+                        class="sect-3-card-img w-100">
+                    <span class="sect-3-card-title fs-5 fw-bold mb-2">Contactez-nous</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Section5-footer-->
+    <div class="container-fluid sect-5-footer py-4">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col-12 col-md-4">
+                    <img src="../STATIC/Images/logo_Low.png" alt="logo-tarik-ibn-ziyad" class="w-50">
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row footer-infos-row">
+                        <div class="col text-danger">
+                            <h4>Contactez-nous</h4>
+                            contact infos here
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
 
 

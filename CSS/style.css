@@ -161,9 +161,7 @@ body {
     margin: auto;
 }
 
-.carousel {
-    border: 10px solid #ffffff;
-}
+
 
 .sect-1-txt-side {
     font-family: 'Merriweather Sans', sans-serif;
@@ -213,15 +211,120 @@ body {
 
 /* Section 2 */
 
-.sect-2 {
-    background-color: #ffffff;
-    min-height: 70dvh;
+
+
+.sect-2-a, .sect-3-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .sec2-1 {
-    background-image: url('../STATIC/Images/test.png');
-    min-height: 50dvh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2-1-img:hover {
+    transform: scale(1.1);
+}
+
+.sect-2-a-title {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3.5rem !important;
+}
+
+
+/* section 3 */
+
+.sect-3 {
+    background-color: #78B3CE;
+    
+}
+
+.sect-3-a-title {
+    font-size: 3.5rem !important;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.sect-3-a-text {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200 !important;
+}
+
+.sect-3-card {
+    background-color: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2rem solid #f07903;
+}
+
+.sect-3-card:hover {
+    transform: scale(1.03);
+}
+
+.sect-3-b {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sect-3-card-eco {
+    border-top: 2rem solid #03f02a !important;
+}
+.sect-3-card-creative {
+    border-top: 2rem solid #f003c8 !important;
+}
+.sect-3-card-Numérique {
+    border-top: 2rem solid #5603f0 !important;
+}
+.sect-3-card-concours {
+    border-top: 2rem solid #bdf003 !important;
+}
+.sect-3-card-extra {
+    border-top: 2rem solid #03f0f0 !important;
+}
+.sect-3-card-extra {
+    border-top: 2rem solid #c017f3 !important;
+}
+.sect-3-card-contact {
+    border-top: 2rem solid #12048f !important;
+}
+
+
+/* sect-4 */
+
+.sect-4 { 
+    background-color: #FDAC53;
+}
+
+.sect-4-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+
+}
+
+.sect-4-title-txt {
+    margin-top: 1rem;
+    font-size: 4rem !important;
+}
+
+/*footer*/
+
+.footer-infos-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
