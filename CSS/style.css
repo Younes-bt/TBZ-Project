@@ -365,3 +365,7 @@ body {
     text-transform: none;
     color: #f07903;
 }
+
+.sect-media-page {
+    display: flex;
+}
