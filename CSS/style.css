@@ -332,3 +332,36 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+
+.section-why {
+    background-image: url(../STATIC/Images/Why-back-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.why-iframe-ytb {
+    width: 100%;
+    height: 90dvh;
+    border-radius: 1rem;
+    border: .5rem solid #f1f1f1;
+}
+
+
+.section-why-text {
+    position: relative; /* Establish a positioning context for child elements */
+}
+
+
+.media-link {
+    text-decoration: none;
+    text-align: center;
+    text-transform: none;
+    color: #f07903;
+}
