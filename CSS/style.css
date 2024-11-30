@@ -377,4 +377,7 @@ body {
     justify-content: center !important;
     font-size: 1rem !important;
     gap: 0 !important;
+    background-color: #78B3CE !important;
+    border-right: .5px solid rgb(209, 204, 204);
+    text-align: center !important;
 }
