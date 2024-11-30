@@ -381,3 +381,8 @@ body {
     border-right: .5px solid rgb(209, 204, 204);
     text-align: center !important;
 }
+
+.btm-nav {
+    -ms-overflow-style: none; /* Hides scrollbar for IE */
+    scrollbar-width: none; /* Hides scrollbar for Firefox */
+}
