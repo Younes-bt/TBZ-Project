@@ -295,7 +295,7 @@ body {
 .sect-3-card-extra {
     border-top: 2rem solid #03f0f0 !important;
 }
-.sect-3-card-extra {
+.sect-3-card-voyage {
     border-top: 2rem solid #c017f3 !important;
 }
 .sect-3-card-contact {
@@ -385,4 +385,14 @@ body {
 .btm-nav {
     -ms-overflow-style: none; /* Hides scrollbar for IE */
     scrollbar-width: none; /* Hides scrollbar for Firefox */
+}
+
+
+.btm-nav-txt {
+    font-size: .5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.btm-nav-item {
+    display: flex;
 }
