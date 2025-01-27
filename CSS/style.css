@@ -12,7 +12,7 @@ body {
 }
 
 .nav-link-media {
-    font-size: .9rem !important;
+    font-size: 1rem !important;
     font-weight: 500 !important;
     color: black;
 }
@@ -354,14 +354,15 @@ body {
 .footer-infos-row {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
+    
 }
 
 
 
 .section-why {
-    background-image: url(../STATIC/Images/Why-back-2.svg);
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1737999054/tbz/oarxx6wibtjufrg2gku3.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -373,14 +374,22 @@ body {
 
 .why-iframe-ytb {
     width: 100%;
-    height: 90dvh;
+    height: 80dvh;
     border-radius: 1rem;
-    border: .5rem solid #f1f1f1;
+    border: .3rem solid #f1f1f1;
 }
 
 
 .section-why-text {
     position: relative; /* Establish a positioning context for child elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.section-why-text-img {
+    width: 70% !important;
 }
 
 
@@ -431,4 +440,152 @@ body {
 #section-Services {
     background: rgb(255,127,0);
     background: linear-gradient(67deg, rgba(255,127,0,1) 0%, rgba(255,154,0,0.9920168751094187) 100%); 
+}
+
+.garden-row {
+    min-height: 100dvh !important;
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1737999042/tbz/hvqjhm8yc6y1jpsv18ln.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menth-row {
+    min-height: 100dvh !important;
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1737999049/tbz/k39tutz20gnuyfrr3hsh.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.podcast-row {
+    min-height: 100dvh !important;
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1737999050/tbz/iglstfy9g8dj8tzbxh6c.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.robotics-row {
+    min-height: 100dvh !important;
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1737999050/tbz/cfzc7mgvlqemosaetvmg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+.paix-row {
+    min-height: 100dvh !important;
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1737999049/tbz/gyggtm7rdvt0fpgnf4cs.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+.youtube-row {
+    min-height: 100dvh !important;
+    background-image: url(https://res.cloudinary.com/daeuundyc/image/upload/v1738013448/tbz/xqqvakcvpkizdaidbwyn.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+.contact-row {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    min-height: 100dvh !important;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.section-podcast-text-img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.podcast-ep-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-podcast-text-img-eps {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.podcast-row  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podcast-epsd-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podcast-epsd-img:hover {
+    width: 230px;
+    cursor: pointer;
+}
+
+.podcast-card-text {
+    font-size: clamp(0.7rem, 2vw, .8rem);
+    color: #f1f1f1;
+    text-align: center;
+    text-overflow: hidden;
+}
+.podcast-card-title {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    color: #f1f1f1;
+    text-align: center;
+    text-overflow: hidden;
+    margin-top: .5rem;
+}
+
+.podcast-title {
+    font-family: sans-serif;
+}
+
+#episode1-video {
+    display: flex;
+}
+
+#episode2-video {
+    display: none;
+}
+#episode3-video {
+    display: none;
+}
+#episode4-video {
+    display: none;
+}
+#episode5-video {
+    display: none;
+}
+
+#episode6-video {
+    display: none;
+}
+
+.pourqoi-com {
+    color: rgb(48, 44, 44);
+}
+
+.section-why-text-img-jardin {
+    width: 100%;
 }
