@@ -591,3 +591,9 @@ body {
 .section-why-text-img-jardin {
     width: 100%;
 }
+
+.caros-img {
+    height: 400px !important;
+    width: 100% !important;
+    object-fit: cover;
+}
